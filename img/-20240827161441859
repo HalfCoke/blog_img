@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="TeaKKi,TeaKKi.com">
+<meta name="description" content="TeaKKi">
+<meta name="author" content="TeaKKi">
+<link rel="shortcut icon" href="/img/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+
+<style>
+body {
+}
+</style>
+
+<title>数据中心文档中心</title>
+<link href="/css/bootstrap-min.css" rel="stylesheet">
+<link href="/css/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+<link href="/css/home/index.css?i=31" rel="stylesheet">
+</head>
+<body>
+<nav id="headerContainer" class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">切换导航</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<span class="navbar-brand">
+				<a href="/" class="logo">
+<img src="https://www.buaa.edu.cn/img/logo.png" width="200" height="35">
+</a>
+			</a>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/" data-target="body" class="smooth-scroll">主页</a></li>
+				
+				
+				
+					<li id="loginBtns">
+						<a id="" href="/login" title="" class="">登录</a>
+					</li>
+					
+				
+			</ul>
+			
+	        <div class="pull-left" id="searchWrap">
+    <form action="/search" id="search" class="header-search">
+        
+            <input type="hidden" value="" name="from" id="from">
+            <img src="/img/loading-32.gif" class="latest-loading only-input hide">
+        
+        <button class="btn btn-link"><span class="sr-only">搜索</span><span class="fa fa-search"></span></button>
+        <input id="searchBox" name="key" type="text" placeholder="关键词搜索" class="form-control" value="" autocomplete="off"/>
+        <div id="latestCtn" class="latest-ctn hide">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#latestPads" aria-controls="#latestPads" role="tab" data-toggle="tab"><span>最近访问文档</span></a></li>
+                <li role="presentation"><a href="#latestSpaces" aria-controls="#latestSpaces" role="tab" data-toggle="tab"><span>空间</span></a></li>
+                <li role="presentation"><a href="#latestUsers" aria-controls="#latestUsers" role="tab" data-toggle="tab"><span>账户/组织</span></a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="latestPads"></div>
+                <div role="tabpanel" class="tab-pane" id="latestSpaces"></div>
+                <div role="tabpanel" class="tab-pane" id="latestUsers"></div>
+            </div>
+        </div>
+    </form>
+</div>
+	        
+		</div>
+	</div>
+</nav>
+
+</style>
+<section class="home-section">
+    <div id="particles-js"></div>
+    <div class="home-preview">
+      <div class="header">
+      <h2 class="logo2">数据中心文档中心</h2>
+        <p>让团队文档协作和知识管理变得简单有序!</p>
+        <div class="navs clearfix">
+                
+                  
+                    <a class="btn btn-default" href="/login">登录</a>
+                
+    		</div>
+    	</div>
+    	
+    	<div class="preview">
+          <img src="/img/home/demo.gif">
+    	</div>
+    </div>
+</section>
+<div class="container about" id="aboutTeaKKi">
+	<h2>Teakki 特性</h2>
+     <div class="row">
+        <div class="col-md-6">
+          <h3>实时同步</h3>
+          <p>你和好友共同编辑一个文档, 你的任何修改都会实时在好友那显示. 并且, 你们还可以聊天讨论.</p>
+        </div>
+         <div class="col-md-6">
+          <h3>空间</h3>
+          <p>你可以免费拥有无限个空间, 也可以创建私有空间, 并可以将空间和文档分享给你的好友.</p>
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-md-6">
+          <h3>文档树</h3>
+          <p>在TeaKKi里, 文档不是单一的存在, 一个空间的所有文档组成了一颗树, 这让知识更易管理.</p>
+       </div>
+        <div class="col-md-6">
+          <h3>组织(企业)账户</h3>
+          <p>你可以创建多个组织账户, 在这个账户下可以管理团队, 拥有丰富的权限管理.</p>
+        </div>
+      </div>
+</div>
+<script src="/i18n/zh-cn.js?t=14"></script>
+<footer id="footer" class="hide-before-pad-load iphonehide">
+      &copy; <a href="https://teakki.com">TeaKKi</a> v2.7 
+    
+        
+            <a href="https://nic.buaa.edu.cn" target="_blank">信息化办公室</a>
+        
+    
+    <select id="lang"><option value="en-us" >English</option><option value="zh-cn" selected>简体中文</option><option value="zh-hk" >繁体中文</option></select>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+    setTimeout(function () {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?ddaadd37236f791915cb9db32de3060f";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    }, 3000);
+})();
+</script>
+
+<script src="/js/jquery-1.9.0.min.js"></script>
+
+<script src="/js/common.js?t=15"></script>
+<script src="/js/bootstrap-min.js"></script>
+<script src="/app/home/Search.js"></script>
+
+<script>
+loadScript('/lib/particles.min.js');
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ddaadd37236f791915cb9db32de3060f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
